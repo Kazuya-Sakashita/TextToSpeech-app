@@ -1,24 +1,24 @@
-# README
+# TextToSpeech-app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+テキスト入力した内容を保存し、その内容を読み上げてくれるアプリ。
+このアプリは、言葉を話せない人や、そのような状況で手軽に使用して欲しい
+思いがあり、スマホでの使用を考えたものです。
 
-Things you may want to cover:
+＜機能説明＞
+発語に障害をお持ちの方を助けるスマホアプリです。
+登録した言葉を読み上げてくれます。
+登録した言葉は、他の人と共有することができます。
+登録した言葉をbookmarkすることができます。
+カテゴリ登録することで、カテゴリ検索が使えます。
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+* 作成者　KAZUYA
+* E-mail　　kz2021019@gmail.com
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
+環境ごとに Procfile を変えたいときは -f オプションでファイルを指定する。
+$ ./bin/dev  
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+(参考HP)https://qiita.com/7kaji/items/6a59977d2ad85604e7fd
