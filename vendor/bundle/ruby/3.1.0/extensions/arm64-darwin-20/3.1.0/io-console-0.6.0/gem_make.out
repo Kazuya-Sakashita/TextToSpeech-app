@@ -1,0 +1,19 @@
+current directory: /Users/sakashitakazuya/Desktop/work/develop/TextToSpeech-app/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+/Users/sakashitakazuya/.rbenv/versions/3.1.4/bin/ruby -I /Users/sakashitakazuya/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+creating Makefile
+
+current directory: /Users/sakashitakazuya/Desktop/work/develop/TextToSpeech-app/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230817-12743-ffxfwh sitelibdir\=./.gem.20230817-12743-ffxfwh clean
+
+current directory: /Users/sakashitakazuya/Desktop/work/develop/TextToSpeech-app/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230817-12743-ffxfwh sitelibdir\=./.gem.20230817-12743-ffxfwh
+compiling console.c
+linking shared-object io/console.bundle
+
+current directory: /Users/sakashitakazuya/Desktop/work/develop/TextToSpeech-app/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230817-12743-ffxfwh sitelibdir\=./.gem.20230817-12743-ffxfwh install
+/usr/bin/install -c -m 0755 console.bundle ./.gem.20230817-12743-ffxfwh/io
