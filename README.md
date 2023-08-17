@@ -21,4 +21,4 @@
 環境ごとに Procfile を変えたいときは -f オプションでファイルを指定する。
 $ ./bin/dev  
 
-(参考HP)https://qiita.com/7kaji/items/6a59977d2ad85604e7fd
+
