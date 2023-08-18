@@ -1,0 +1,18 @@
+<div id="<%= dom_id content %>" class="flex flex-col md:flex-row p-5 border-b">
+  <div class="w-full md:w-1/3 mb-4 md:mb-0">
+    <strong class="block font-medium mb-1">Title:</strong>
+    <p class="text-gray-700"><%= content.title %></p>
+  </div>
+
+  <div class="w-full md:w-1/2 mb-4 md:mb-0">
+    <strong class="block font-medium mb-1">Body:</strong>
+    <div id="speechtxt" class="text-gray-700"><%= content.body %></div>
+  </div>
+
+  <div class="w-full md:w-1/6 flex flex-col justify-center">
+    <% if action_name != "show" %>
+      <%= link_to "Show this content", content, class: "rounded-lg py-2 px-3 bg-gray-100 mb-2 inline-block font-medium" %>
+      <%= link_to 'Edit this content', edit_content_path(content), class: "rounded-lg py-2 px-3 bg-gray-100 inline-block font-medium" %>
+    <% end %>
+  </div>
+</div>
